@@ -1,7 +1,8 @@
 # Firebase Realtime Database User Management Dashboard
 
-This is a simple **client-side dashboard** built with **HTML**, **CSS**, and **JavaScript** that interacts with the** Firebase Realtime Database** API to **create**, **delete**, **show**, and **edit** user information. The project uses** vanilla JavaScript** and does not require any external libraries or frameworks. All **CRUD** operations are performed through **HTTP requests** to the Firebase Realtime Database **API**.
+This is a simple **client-side dashboard** built with **HTML**, **CSS**, and **JavaScript** that interacts with the **Firebase Realtime Database** API to **create**, **delete**, **show**, and **edit** user information. The project uses **vanilla JavaScript** and does not require any external libraries or frameworks. All **CRUD** operations are performed through **HTTP requests** to the Firebase Realtime Database **API**.
 
+![User Management Dashboard](https://raw.githubusercontent.com/Mahdi-Hazrati/Firebase-User-Management-Dashboard/master/assets/main.png "User Management Dashboard")
 
 ## Features
 - Create new users in the Firebase Realtime Database
@@ -21,15 +22,23 @@ const endPointUrl ="{PUT YOUR PROJECT NAME HERE}.firebaseio.com/"
 
 To create a new user, click the "Create User" button and fill out the form fields with the user's name, email address, and password. Click the "Save Changes" button to add the new user to the Firebase Realtime Database.
 
+![Creating a User](https://raw.githubusercontent.com/Mahdi-Hazrati/Firebase-User-Management-Dashboard/master/assets/create.png "Creating a User")
+
 
 ## Retrieving User Data
 To retrieve a list of all users in the database, click the "Show Users" button. The dashboard will display a table of all users in the database, including their name, email address, and unique ID.
 
+![Retrieving User Data](https://raw.githubusercontent.com/Mahdi-Hazrati/Firebase-User-Management-Dashboard/master/assets/view.png "Retrieving User Data")
+
 ## Updating User Data
-To update a user's data, click the "Edit User" button next to the user's information in the table. Make any necessary changes to the form fields and click the "Save Changes" button to update the user's information in the Firebase Realtime Database.
+To update a user's data, click the "Edit " button next to the user's information in the table. Make any necessary changes to the form fields and click the "Save" button to update the user's information in the Firebase Realtime Database.
+
+![Updating User Data](https://raw.githubusercontent.com/Mahdi-Hazrati/Firebase-User-Management-Dashboard/master/assets/update.png "Updating User Data")
 
 ## Deleting a User
-To delete a user from the database, click the "Delete User" button next to the user's information in the table. The backend will remove the specified user from the Firebase Realtime Database.
+To delete a user from the database, click the "Delete" button next to the user's information in the table. The backend will remove the specified user from the Firebase Realtime Database.
+
+![Deleting a User](https://raw.githubusercontent.com/Mahdi-Hazrati/Firebase-User-Management-Dashboard/master/assets/delete.png "Deleting a User")
 
 ### Endpoint URLs
 To make **GET**, **DELETE**, **PUT**, and **POST** requests to the Firebase Realtime Database API, use the following endpoint URLs:
