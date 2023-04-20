@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="Styles/main.css" />
+        <title>Firebase User Management Dashboard</title>
+    </head>
+    <body>
+        <!----:start:----->
+        <div class="main-container">
+            <div class="dashboard">
+                <div class="create-new-user">
+                    <form method="post">
+                        <input
+                            type="text"
+                            id="input-first-name"
+                            placeholder="first"
+                
+                        />
+                        <input
+                            type="text"
+                            id="input-last-name"
+                            placeholder="last"
+            
+                        />
+                        <input
+                            type="text"
+                            id="input-username"
+                            placeholder="username"
+            
+                        />
+                        <input
+                            type="text"
+                            id="input-email"
+                            placeholder="email"
+           
+                        />
+                        <input
+                            type="button"
+                            value="create new user"
+                            id="creare-user-submit"
+                        />
+                    </form>
+                </div>
+                <div class="users-management">
+                    <div class="users-container">
+                      
+                    </div>
+                    <div class="modal-container">
+                        <div class="delete-user-modal">
+                          <p>Are You Sure Delete <span class="username">@username</span> ?</p>
+                          <div class="action-btn">
+                            <input type="button" value="Yes Sure" id="yes">
+                            <input type="button" value="No Keep it" id="no">
+                          </div>
+                        </div>
+                        <div class="edit-user-modal">
+                          <p>Edit User information</p>
+                          <form>
+                            <input
+                                type="text"
+                                id="input-first-name"
+                                placeholder="first"
+                            />
+                            <input
+                                type="text"
+                                id="input-last-name"
+                                placeholder="last"
+                            />
+                            <input
+                                type="text"
+                                id="input-username"
+                                placeholder="username"
+                            />
+                            <input
+                                type="text"
+                                id="input-email"
+                                placeholder="email"
+                            />
+                        </form>
+                          <div class="action-btn">
+                            <input type="button" value="Save" id="save">
+                            <input type="button" value="close" id="close">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----:end..:----->
+        <script src="./JavaScript/app.js"></script>
+    </body>
+</html>
